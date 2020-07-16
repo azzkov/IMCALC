@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>IMCAlC</title>
+</head>
+<body>
+    <div class="container">
+    <form class="container" id="form">
+        <legend>IMCALC</legend>
+        <br>
+        <br>
+        <br>
+          <label for="altura">Digite sua altura:</label>
+          <input type="number" class="form-inputs" id="altura" size="9" pattern="[0-9]+([,\.][0-9]+)?" min="0" step="any"
+          name="null">
+       <br>
+       <br>
+          <label for="peso">Digite seu peso:</label>
+          <input type="number" class="form-inputs" id="peso" size="9" pattern="[0-9]+([,\.][0-9]+)?" min="0" step="any"
+          name="null">
+          <br>
+          <br>
+          <br>
+        <button type="submit" class="botao" id="calcular">Calcular</button>
+        <br> 
+        <br>
+        <ul>
+            <li id="apresentar" style="list-style: none;"></li>
+        </ul>     
+      </form>
+        
+      <script src="js/comands.js"></script>
+
+      
+      </div>
+      <div id="apresentar"></div>
+    </div>
+     
+</body>
+</html>

@@ -1,0 +1,81 @@
+* {
+     margin: 0; 
+    padding: 0; 
+    font-family:Tahoma; 
+    font-size:12pt;
+}
+body{
+
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(132,1,143,1) 35%, rgba(0,212,255,1) 100%);
+}
+legend{
+    text-align: center;
+    align-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-size: 28px;
+}
+.botao {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #8d18db 5%, #408c99 100%);
+	background-color:#8d18db;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	padding:13px 15px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #8917e6;
+    position: static;
+}
+.botao:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #8d18db 100%);
+	background-color:#408c99;
+}
+.botao:active {
+	position:relative;
+	top:1px;
+}
+form{
+    width: 600px;
+    height: 500px;
+    display: inline-block;
+    color: #ffff;
+    top: 50%;
+    left: 50%;
+    border: dotted rgb(158, 183, 231) 2px;
+    border-radius: 13%;
+    position: absolute;
+    top: 80%;
+    left: 80%;
+}
+.container{
+    align-content: center;
+    text-align: center;
+    justify-items: center;
+    width: 500px; 
+    height: 300px; 
+    left: 50%; 
+    margin: -130px 0 0 -210px; 
+    top: 50%; 
+}
+.form-inputs{
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
+}
+.resultado{
+    width: 500px; 
+    height: 300px; 
+    left: 50%; 
+    margin: -130px 0 0 -400px; 
+    top: 50%;
+
+}
+        
